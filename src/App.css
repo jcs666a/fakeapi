@@ -1,0 +1,45 @@
+
+h3 {
+  text-align: center;
+  color: blueviolet;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.field-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 58px;
+}
+
+input {
+  width: calc(100% - 110px);
+  max-width: 400px;
+}
+
+button {
+  width: 100px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+ul {
+  margin: 10px auto 0;
+  max-width: 516px;
+  height: calc(100vh - 103px);
+  overflow: auto;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 4px;
+}
+
+li:nth-child(odd) {
+  background-color: #eee;
+}
